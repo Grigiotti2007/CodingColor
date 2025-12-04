@@ -1,13 +1,29 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
-<title>GitHub TPSIT</title>
+   <meta charset="utf-8">
+   <title>Coding&Color</title>
+   <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-Nome: Gabriele Grigiotti
-Classe: 4Binf
-Materia: Tpsit
-Progetto: GitHub
+<div id="header">
+   <h1 id="saluto">Oggi è un bel giorno!</h1>
+</div>
+<div id="title">
+    <h1>CODICI e COLORI</h1>
+</div>
+<div id="input">
+    <tabel for="inNumber">Inserisci un numero: </tabel>
+    <input type="number" id="inNumber" placeholder="numero">
+    <button type="button" id="btnElabora" onclick="elabora()">Elabora</button>
+    <button type="annulla" id="btnAnnulla" onclick="annulla()">Annulla</button>
+</div>
+<div id="output">
+    <p id="outText">Output</p>
+</div>
+<div id="errors">
+    <p id="error">Errori</p>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
-
