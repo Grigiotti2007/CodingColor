@@ -1,4 +1,4 @@
-# codingcolor
+# CodingColor
 ## Gabriele Grigiotti
 ## 4BINF
 ## tipsit
